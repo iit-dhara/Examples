@@ -1,0 +1,59 @@
+body {
+	background: #f9e933;
+}
+
+header, main, footer {
+	min-width: 855px;
+	clear: both;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header	{
+	background: white;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+	font-weight: bolder;
+	font-size: 2em;
+	font-family: 'Denk One', sans-serif;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main{
+	background: white;
+	overflow: auto;
+	padding: 1%;
+}
+
+.right{
+	float: right;
+	/*width: 285px;*/
+	max-width: 855px;
+	/*padding: 3%;*/
+}
+
+.left{
+	float: left;
+	width: 570px;
+}
+
+.Contact{
+	float: left;
+	width: 570px;
+}
+
+.Sitemap {
+    float: right;
+    max-width: 855px;
+}
